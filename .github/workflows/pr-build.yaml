@@ -8,6 +8,7 @@ on:
       - reopened
 
 jobs:
+  lint-chart:
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
