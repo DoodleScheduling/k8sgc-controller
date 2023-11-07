@@ -84,7 +84,7 @@ signs:
   - sign-blob
   - "--output-certificate=${certificate}"
   - "--output-signature=${signature}"
-  - "--yes"
+  - --yes
   - "${artifact}"
   artifacts: checksum
   output: true
@@ -97,5 +97,5 @@ docker_signs:
     output: true
     args:
     - 'sign'
-  - "--yes"
+    - --yes
     - '${artifact}'
