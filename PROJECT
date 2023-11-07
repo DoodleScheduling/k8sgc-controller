@@ -1,0 +1,12 @@
+domain: doodle.com
+layout:
+- go.kubebuilder.io/v3
+projectName: gc-controller
+repo: github.com/doodlescheduling/gc-controller
+resources:
+- controller: true
+  group: core
+  kind: Pod
+  path: k8s.io/api/core/v1
+  version: v1
+version: "3"

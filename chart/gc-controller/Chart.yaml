@@ -1,0 +1,16 @@
+apiVersion: v2
+appVersion: v0.0.0
+description: Pod garbage collector for kubernetes
+home: https://github.com/DoodleScheduling/gc-controller
+maintainers:
+- name: devops
+  email: devops@doodle.com
+keywords:
+- kubernetes-controller
+- garbace-collection
+- evicted-pods
+- cleanup
+name: gc-controller
+sources:
+- https://github.com/DoodleScheduling/gc-controller
+version: 0.0.0
