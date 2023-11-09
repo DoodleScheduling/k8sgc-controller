@@ -8,11 +8,11 @@
 
 Pod garbage collector controller.
 This controller cleans evicted/failed pods and can keep a configurable number of them.
-Unlike the vanialla gc collector this controller is workload aware and collects evicted pods overall namespaces and can keep
-a number of evicted pods for each owning workload.
-Despite this the vanilla is configured by default to collect only if there are more than `12500` evicted pods `--terminated-pod-gc-threshold`
-See https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/. That said this flag might not even be configurable for 
-hosted kubernetes platforms.
+Unlike the vanilla gc collector this controller is workload aware and collects evicted pods by namespaces and can keep
+a number of evicted pods for each governing workload resource.
+Despite this the vanilla one is configured by default to collect only if there are more than `12500` evicted pods `--terminated-pod-gc-threshold`.
+See https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/. That said this flag is usually not not even configurable on
+hosted kubernetes platforms since the control plane can't be modified.
 
 ## Installation
 
