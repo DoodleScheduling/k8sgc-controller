@@ -3,6 +3,7 @@
 [![release](https://img.shields.io/github/release/DoodleScheduling/gc-controller/all.svg)](https://github.com/DoodleScheduling/gc-controller/releases)
 [![release](https://github.com/doodlescheduling/gc-controller/actions/workflows/release.yaml/badge.svg)](https://github.com/doodlescheduling/gc-controller/actions/workflows/release.yaml)
 [![report](https://goreportcard.com/badge/github.com/DoodleScheduling/gc-controller)](https://goreportcard.com/report/github.com/DoodleScheduling/gc-controller)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/DoodleScheduling/gc-controller/badge)](https://api.securityscorecards.dev/projects/github.com/DoodleScheduling/gc-controller)
 [![Coverage Status](https://coveralls.io/repos/github/DoodleScheduling/gc-controller/badge.svg?branch=master)](https://coveralls.io/github/DoodleScheduling/gc-controller?branch=master)
 [![license](https://img.shields.io/github/license/DoodleScheduling/gc-controller.svg)](https://github.com/DoodleScheduling/gc-controller/blob/master/LICENSE)
 
